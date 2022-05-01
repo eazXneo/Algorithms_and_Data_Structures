@@ -1,4 +1,6 @@
+### Insert Sort implemented by Lea ###
 
+# sorts element one by one and places in correct location for already sorted elements.
 def insert_sort(arr):  # O(n**2)
     arr_length = len(arr)
     for i in range(1,arr_length):
